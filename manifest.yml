@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: infosec_icf_app
+  host: kmk
+  disk_quota: 1024M
+  services:
+  - Compose for MongoDB-mk
+  - availability-monitoring-auto
